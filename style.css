@@ -1,0 +1,154 @@
+body{
+    margin:auto;
+    padding:0;
+   padding-top: 80px;
+	width: 90%;
+	background-color:white;
+	opacity: 0.5px;
+}
+#home{
+	margin-top: 0px;
+	width: 100%;
+	background-color:antiquewhite;
+	
+}
+#imgs{
+	background-color:white;
+	width: 100%;
+	color:crimson;
+}
+#navhead{
+	/* //height: 79px; */
+}
+.navbar-brand{
+	color: bisque;
+}
+#footer{
+	background-color: antiquewhite;
+	color: crimson;
+	
+}
+.contactpar{
+	float: left;
+margin-left: 40px;
+	margin-right: 40px;
+}
+.content-item{
+	width: 100%;
+	margin: auto;
+}
+.navbar-right{
+	margin-right: 40px;
+	font-size: 25px;
+}
+.navbar-brand{
+	//margin-left: 90px;
+	font-size: 50px;
+}
+
+.navbar{
+	background-color: antiquewhite;
+	
+	
+}
+.navbar-default{
+           background-color:ghostwhite;
+}
+.navbar-nav{
+	text-align: center;
+	margin-left: 80px;
+	font-size: 25px;
+	
+}
+.nav-left{
+	float: left;
+	margin-left: 110px;
+	font-size: 40px;
+	color: gray;
+}
+.tm-image{
+	width: 100%;
+	height: 570px;
+}
+.carousel-indicators{
+	margin-top: 0%;
+}
+.button {
+    background-color: crimson; 
+    border: none;
+    color:antiquewhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.content-item2{
+	margin-left: -5px;
+	margin-bottom: 30px;
+	text-align: justify-all;
+}
+.desc {
+    padding: 10px;
+    text-align: center;
+	background-color:white;
+	font-size:30px;
+}
+.gallery {
+    margin-top: 90px;
+	margin-left: 30px;
+   
+    float: left;
+   margin-bottom: 30px;
+	padding:5px;
+	transition-duration:0.5s; 
+	
+	
+}
+
+.gallery:hover {
+   
+	transform: scale(1.1,1.1);
+		opacity:1;
+}
+
+div.gallery img {
+    width: 300px;
+   height:200px;
+}
+.toggle{
+	
+	width: 50px;
+	height: calc(var(width/2));
+	border-radius: var(calc(var(height/2)));
+	display: inline-block;
+	cursor: pointer;
+	
+}
+.toggle_input{
+	display: none;
+}
+.toggle_fill{
+	position:  relative;
+	width: var(width);
+	height: var(height);
+	border-radius: var(border-radius);
+	background: #dddddd;
+	transition: background 0.2s;
+}
+.toggle_fill:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: var(width);
+	height: var(height);
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.25);
+		
+}
+.toggle_input:checked
+.toggle_fill:after{
+	transform: translateX(var(height));
+}
